@@ -16,7 +16,7 @@ namespace QKartTestAutomation.Factory
             switch (drivertype)
             {
                 case "Chrome":
-                    driver = new ChromeDriver();
+                    driver = new ChromeDriver(".");
                     break;
                 deafult:
                     break;
